@@ -57,6 +57,25 @@
         "sat": {"open": "08:00", "close": "18:00"}
       },
       "attributes": ["Disabled"]
+    },
+    {
+      "id": "32f4f870-df09-4dc1-89ef-0f0b2d6abf25",
+      "operator": "Plymouth City Council",
+      "longitude": 50.361740,
+      "latitude": -4.16167,
+      "name": "Devil's Point",
+      "address": "Devil's Point, Stonehouse, PL1 3RW",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": ["Disabled", "Gender Neutral", "Baby Change", "Shower"]
     }
   ]
 }
