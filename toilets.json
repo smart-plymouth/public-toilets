@@ -228,6 +228,25 @@
         "sat": {"open": "08:00", "close": "18:00"}
       },
       "attributes": ["Disabled", "Baby Change"]
+    },
+    {
+      "id": "58607043-bb92-47ac-b767-ab6660ef2dba",
+      "operator": "Plymouth City Council",
+      "longitude": 50.41850,
+      "latitude": -4.15054,
+      "name": "Whitleigh Green",
+      "address": "Whitleigh Green, PL5 4DE",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "15:00"},
+        "mon": {"open": "08:00", "close": "15:00"},
+        "tue": {"open": "08:00", "close": "15:00"},
+        "wed": {"open": "08:00", "close": "15:00"},
+        "thu": {"open": "08:00", "close": "15:00"},
+        "fri": {"open": "08:00", "close": "15:00"},
+        "sat": {"open": "08:00", "close": "15:00"}
+      },
+      "attributes": ["Gender Neutral"]
     }
   ]
 }
