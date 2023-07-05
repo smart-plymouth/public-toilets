@@ -247,6 +247,63 @@
         "sat": {"open": "08:00", "close": "15:00"}
       },
       "attributes": ["Gender Neutral"]
+    },
+    {
+      "id": "12d6b235-35f1-4908-a973-d5dc63c99f82",
+      "operator": "Plymouth City Council",
+      "longitude": 50.40138,
+      "latitude": -4.18585,
+      "name": "Wolseley Road",
+      "address": "Wolseley Road, St Budeaux, PL5 1UD",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": ["Disabled"]
+    },
+    {
+      "id": "ad8acd87-6777-4c54-809b-e7d22d9cc165",
+      "operator": "Plymouth City Council",
+      "longitude": 50.40753,
+      "latitude": -4.13352,
+      "name": "Crownhill",
+      "address": "Crownhill, PL6 5AE",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {},
+        "mon": {"open": "08:00", "close": "15:00"},
+        "tue": {"open": "08:00", "close": "15:00"},
+        "wed": {"open": "08:00", "close": "15:00"},
+        "thu": {"open": "08:00", "close": "15:00"},
+        "fri": {"open": "08:00", "close": "15:00"},
+        "sat": {"open": "08:00", "close": "15:00"}
+      },
+      "attributes": ["Disabled", "Baby Change"]
+    },
+    {
+      "id": "11f33ee3-4230-43b3-80b2-6a96c4ad7a1c",
+      "operator": "Plymouth City Council",
+      "longitude": 50.42927,
+      "latitude": -4.12634,
+      "name": "Southway Drive",
+      "address": "Southway Drive, Southway, PL6 6QR",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {},
+        "mon": {"open": "08:00", "close": "15:00"},
+        "tue": {"open": "08:00", "close": "15:00"},
+        "wed": {"open": "08:00", "close": "15:00"},
+        "thu": {"open": "08:00", "close": "15:00"},
+        "fri": {"open": "08:00", "close": "15:00"},
+        "sat": {"open": "08:00", "close": "15:00"}
+      },
+      "attributes": []
     }
   ]
 }
