@@ -6,7 +6,7 @@
       "operator": "Plymouth City Council",
       "longitude": 50.37156,
       "latitude": -4.14246,
-      "name": "Armada Way"
+      "name": "Armada Way",
       "address": "Armada Way, City Centre, PL1 1HH",
       "fee": "£0.50",
       "opening_hours": {
@@ -25,7 +25,7 @@
       "operator": "Plymouth City Council",
       "longitude": 50.36668,
       "latitude": -4.13419,
-      "name": "Barbican - Quay Point"
+      "name": "Barbican - Quay Point",
       "address": "The Barbican, PL1 2LR",
       "fee": "unknown",
       "opening_hours": {
@@ -38,6 +38,25 @@
         "sat": {"open": "08:00", "close": "23:00"}
       },
       "attributes": ["Disabled", "Gender Neutral", "Baby Change"]
+    },
+    {
+      "id": "eb546bc4-4ddd-444b-9d9d-7e39441d2596",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36566,
+      "latitude": -4.16257,
+      "name": "Cremyll Street",
+      "address": "Cremyll Street, Stonehouse, PL1 3RE",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": ["Disabled"]
     }
   ]
 }
