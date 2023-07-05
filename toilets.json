@@ -1,0 +1,24 @@
+{
+  "last_updated": "2023-07-05T17:15:00Z",
+  "toilets": [
+    {
+      "id": "82513ed3-5cc6-4ab9-9fdb-79354a9dcab2",
+      "operator": "Plymouth City Council",
+      "longitude": 50.37156,
+      "latitude": -4.14246,
+      "name": "Armada Way"
+      "address": "Armada Way, City Centre, PL1 1HH",
+      "cost": "£0.50",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"},
+      },
+      "attributes": ["Disabled", "RADAR Key", "Baby Change"]
+    }
+  ]
+}
