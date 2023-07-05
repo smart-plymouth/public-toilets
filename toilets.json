@@ -95,6 +95,44 @@
         "sat": {"open": "08:00", "close": "23:00"}
       },
       "attributes": ["Disabled", "Gender Neutral", "Baby Change"]
+    },
+    {
+      "id": "dbb1965a-449f-4427-b1c1-74548e195f4f",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36550,
+      "latitude": -4.14003,
+      "name": "Hoe Promenade",
+      "address": "The Hoe, PL1 2PA",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "20:00"},
+        "mon": {"open": "08:00", "close": "20:00"},
+        "tue": {"open": "08:00", "close": "20:00"},
+        "wed": {"open": "08:00", "close": "20:00"},
+        "thu": {"open": "08:00", "close": "20:00"},
+        "fri": {"open": "08:00", "close": "20:00"},
+        "sat": {"open": "08:00", "close": "20:00"}
+      },
+      "attributes": ["Disabled", "Gender Neutral", "Baby Change", "Changing Places"]
+    },
+    {
+      "id": "845aba55-9abe-4d27-9301-2d091556505f",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36529,
+      "latitude": -4.17635,
+      "name": "Mutton Cove",
+      "address": "Mutton Cove, Mountwise, PL1 4LB",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {},
+        "mon": {"},
+        "tue": {},
+        "wed": {"},
+        "thu": {},
+        "fri": {},
+        "sat": {}
+      },
+      "attributes": []
     }
   ]
 }
