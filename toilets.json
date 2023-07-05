@@ -76,6 +76,25 @@
         "sat": {"open": "08:00", "close": "18:00"}
       },
       "attributes": ["Disabled", "Gender Neutral", "Baby Change", "Shower"]
+    },
+    {
+      "id": "c7769682-c690-4938-b5df-8a870a15b7ef",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36402,
+      "latitude": -4.13438,
+      "name": "Elphinstone (Phoenix Wharf)",
+      "address": "Phoenix Wharf, The Hoe, PL1 2NX",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "23:00"},
+        "mon": {"open": "08:00", "close": "23:00"},
+        "tue": {"open": "08:00", "close": "23:00"},
+        "wed": {"open": "08:00", "close": "23:00"},
+        "thu": {"open": "08:00", "close": "23:00"},
+        "fri": {"open": "08:00", "close": "23:00"},
+        "sat": {"open": "08:00", "close": "23:00"}
+      },
+      "attributes": ["Disabled", "Gender Neutral", "Baby Change"]
     }
   ]
 }
