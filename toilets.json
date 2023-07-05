@@ -190,6 +190,25 @@
         "sat": {"open": "10:00", "close": "17:00"}
       },
       "attributes": []
+    },
+    {
+      "id": "36535b86-f659-47e9-96ae-8720745ab4c9",
+      "operator": "Plymouth City Council",
+      "longitude": 50.39232,
+      "latitude": -4.12994,
+      "name": "Hartley Park",
+      "address": "Hartley Park, PL3 5NU",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "10:00", "close": "17:00"},
+        "mon": {"open": "10:00", "close": "17:00"},
+        "tue": {"open": "10:00", "close": "17:00"},
+        "wed": {"open": "10:00", "close": "17:00"},
+        "thu": {"open": "10:00", "close": "17:00"},
+        "fri": {"open": "10:00", "close": "17:00"},
+        "sat": {"open": "10:00", "close": "17:00"}
+      },
+      "attributes": ["Disabled", "RADAR Key"]
     }
   ]
 }
