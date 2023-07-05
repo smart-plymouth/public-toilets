@@ -399,6 +399,25 @@
         "sat": {"open": "08:00", "close": "15:00"}
       },
       "attributes": ["Disabled"]
+    },
+    {
+      "id": "e0561d9a-a01e-42c6-abef-96b5ecea9e0d",
+      "operator": "Plymouth City Council",
+      "longitude": 50.35997,
+      "latitude": -4.13023,
+      "name": "Mount Batten",
+      "address": "Mount Batten, PL9 9SA",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "16:00"},
+        "mon": {"open": "08:00", "close": "16:00"},
+        "tue": {"open": "08:00", "close": "16:00"},
+        "wed": {"open": "08:00", "close": "16:00"},
+        "thu": {"open": "08:00", "close": "16:00"},
+        "fri": {"open": "08:00", "close": "16:00"},
+        "sat": {"open": "08:00", "close": "16:00"}
+      },
+      "attributes": ["Disabled", "Baby Change"]
     }
   ]
 }
