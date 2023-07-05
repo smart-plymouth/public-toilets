@@ -171,6 +171,25 @@
         "sat": {"open": "08:00", "close": "18:00"}
       },
       "attributes": ["Disabled", "Baby Change"]
+    },
+    {
+      "id": "21a6b1fe-969a-48a4-b518-f955f5c2725b",
+      "operator": "Plymouth City Council",
+      "longitude": 50.38550,
+      "latitude": -4.15150,
+      "name": "Central Park",
+      "address": "Central Park, PL3 4HQ",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "10:00", "close": "17:00"},
+        "mon": {"open": "10:00", "close": "17:00"},
+        "tue": {"open": "10:00", "close": "17:00"},
+        "wed": {"open": "10:00", "close": "17:00"},
+        "thu": {"open": "10:00", "close": "17:00"},
+        "fri": {"open": "10:00", "close": "17:00"},
+        "sat": {"open": "10:00", "close": "17:00"}
+      },
+      "attributes": []
     }
   ]
 }
