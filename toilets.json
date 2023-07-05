@@ -209,6 +209,25 @@
         "sat": {"open": "10:00", "close": "17:00"}
       },
       "attributes": ["Disabled", "RADAR Key"]
+    },
+    {
+      "id": "94bbea4f-3880-4da8-bc4c-3d0feeb7f940",
+      "operator": "Plymouth City Council",
+      "longitude": 50.37827,
+      "latitude": -4.12737,
+      "name": "Freedom Park",
+      "address": "Freedom Park, Lipson, PL4 8QF",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": ["Disabled", "Baby Change"]
     }
   ]
 }
