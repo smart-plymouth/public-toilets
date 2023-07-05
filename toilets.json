@@ -361,6 +361,44 @@
         "sat": {"open": "08:00", "close": "17:30"}
       },
       "attributes": []
+    },
+    {
+      "id": "896bd3e1-a4d1-4a1b-9e15-b4ce6019e81e",
+      "operator": "Plymouth City Council",
+      "longitude": 50.35200,
+      "latitude": -4.11982,
+      "name": "Jennicliff",
+      "address": "Jennicliff, PL9 9SA",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "16:00"},
+        "mon": {"open": "08:00", "close": "16:00"},
+        "tue": {"open": "08:00", "close": "16:00"},
+        "wed": {"open": "08:00", "close": "16:00"},
+        "thu": {"open": "08:00", "close": "16:00"},
+        "fri": {"open": "08:00", "close": "16:00"},
+        "sat": {"open": "08:00", "close": "16:00"}
+      },
+      "attributes": ["Disabled"]
+    },
+    {
+      "id": "78fca772-408a-44a9-ad60-042f1a7ed965",
+      "operator": "Plymouth City Council",
+      "longitude": 50.35958,
+      "latitude": -4.09302,
+      "name": "Broadway",
+      "address": "6 Dean Hill, PL9 9AS",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "15:00"},
+        "mon": {"open": "08:00", "close": "15:00"},
+        "tue": {"open": "08:00", "close": "15:00"},
+        "wed": {"open": "08:00", "close": "15:00"},
+        "thu": {"open": "08:00", "close": "15:00"},
+        "fri": {"open": "08:00", "close": "15:00"},
+        "sat": {"open": "08:00", "close": "15:00"}
+      },
+      "attributes": ["Disabled"]
     }
   ]
 }
