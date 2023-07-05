@@ -8,7 +8,7 @@
       "latitude": -4.14246,
       "name": "Armada Way"
       "address": "Armada Way, City Centre, PL1 1HH",
-      "cost": "£0.50",
+      "fee": "£0.50",
       "opening_hours": {
         "sun": {"open": "08:00", "close": "18:00"},
         "mon": {"open": "08:00", "close": "18:00"},
