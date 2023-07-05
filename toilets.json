@@ -304,6 +304,44 @@
         "sat": {"open": "08:00", "close": "15:00"}
       },
       "attributes": []
+    },
+    {
+      "id": "1c93c50c-ff5e-4e57-b30b-50429469971d",
+      "operator": "Plymouth City Council",
+      "longitude": 50.39384,
+      "latitude": -4.08229,
+      "name": "Coypool Park and Ride",
+      "address": "Coypool Park and Ride, Coypool, PL7 5AA",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": ["Disabled"]
+    },
+    {
+      "id": "9fd63894-0594-45b6-806a-d2bc983364b1",
+      "operator": "Plymouth City Council",
+      "longitude": 50.38849,
+      "latitude": -4.05403,
+      "name": "Ridgeway",
+      "address": "Ridgeway, Plympton, PL7 2AL",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "15:30"},
+        "mon": {"open": "08:00", "close": "15:30"},
+        "tue": {"open": "08:00", "close": "15:30"},
+        "wed": {"open": "08:00", "close": "15:30"},
+        "thu": {"open": "08:00", "close": "15:30"},
+        "fri": {"open": "08:00", "close": "15:30"},
+        "sat": {"open": "08:00", "close": "15:30"}
+      },
+      "attributes": ["Disabled"]
     }
   ]
 }
