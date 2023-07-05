@@ -342,6 +342,25 @@
         "sat": {"open": "08:00", "close": "15:30"}
       },
       "attributes": ["Disabled"]
+    },
+    {
+      "id": "bbc55db0-d108-4e0a-b2d7-3936150b2761",
+      "operator": "Plymouth City Council",
+      "longitude": 50.35826,
+      "latitude": -4.06756,
+      "name": "Springfield Road",
+      "address": "Springfield Road, Elburton, PL9 8PU",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "17:30"},
+        "mon": {"open": "08:00", "close": "17:30"},
+        "tue": {"open": "08:00", "close": "17:30"},
+        "wed": {"open": "08:00", "close": "17:30"},
+        "thu": {"open": "08:00", "close": "17:30"},
+        "fri": {"open": "08:00", "close": "17:30"},
+        "sat": {"open": "08:00", "close": "17:30"}
+      },
+      "attributes": []
     }
   ]
 }
