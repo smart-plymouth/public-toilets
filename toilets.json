@@ -19,6 +19,25 @@
         "sat": {"open": "08:00", "close": "18:00"},
       },
       "attributes": ["Disabled", "RADAR Key", "Baby Change"]
+    },
+    {
+      "id": "b9760fa1-04ed-47d5-8ca3-4951ec6e86e8",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36668,
+      "latitude": -4.13419,
+      "name": "Barbican - Quay Point"
+      "address": "The Barbican, PL1 2LR",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "23:00"},
+        "mon": {"open": "08:00", "close": "23:00"},
+        "tue": {"open": "08:00", "close": "23:00"},
+        "wed": {"open": "08:00", "close": "23:00"},
+        "thu": {"open": "08:00", "close": "23:00"},
+        "fri": {"open": "08:00", "close": "23:00"},
+        "sat": {"open": "08:00", "close": "23:00"},
+      },
+      "attributes": ["Disabled", "Gender Neutral", "Baby Change"]
     }
   ]
 }
