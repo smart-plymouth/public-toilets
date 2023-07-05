@@ -133,6 +133,44 @@
         "sat": {}
       },
       "attributes": []
+    },
+    {
+      "id": "428d3287-3341-4d04-a458-64d17b83a485",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36473,
+      "latitude": -4.16913,
+      "name": "Richmond Walk",
+      "address": "Richmond Walk, PL1 4QA",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": []
+    },
+    {
+      "id": "9f2fd62b-207d-49a3-8d84-9ce00364291c",
+      "operator": "Plymouth City Council",
+      "longitude": 50.36438,
+      "latitude": -4.14618,
+      "name": "West Hoe",
+      "address": "West Hoe, The Hoe, PL1 3DE",
+      "fee": "unknown",
+      "opening_hours": {
+        "sun": {"open": "08:00", "close": "18:00"},
+        "mon": {"open": "08:00", "close": "18:00"},
+        "tue": {"open": "08:00", "close": "18:00"},
+        "wed": {"open": "08:00", "close": "18:00"},
+        "thu": {"open": "08:00", "close": "18:00"},
+        "fri": {"open": "08:00", "close": "18:00"},
+        "sat": {"open": "08:00", "close": "18:00"}
+      },
+      "attributes": ["Disabled", "Baby Change"]
     }
   ]
 }
