@@ -44,6 +44,6 @@ def get_toilet(toilet_id):
             {
                 "error": "Not Found",
                 "message": "Toilet not found.",
-                "status":404
+                "status": 404
             }
         )
