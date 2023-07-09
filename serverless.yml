@@ -9,12 +9,19 @@ custom:
 provider:
   name: aws
   runtime: python3.10
+  region: eu-west-1
 
 functions:
   api:
     handler: wsgi_handler.handler
     events:
       - httpApi: '*'
+    memorySize: 128
+    timeout: 20
+    cors:
+      origin: '*'
+      headers:
+        - Content-Type
 
 plugins:
   - serverless-wsgi
