@@ -1,18 +1,45 @@
-from flask import Flask, jsonify, make_response
+import json
+from flask import Flask
+from flask import jsonify
+
 
 app = Flask(__name__)
 
 
 @app.route("/")
-def hello_from_root():
-    return jsonify(message='Hello from root!')
+def get_app_version():
+    return jsonify(
+        {
+            "service": "Public Toilets API",
+            "version": 1.0
+        }
+    )
 
 
-@app.route("/hello")
-def hello():
-    return jsonify(message='Hello from path!')
+@app.route("/toilets")
+def get_toilets():
+    with open('toilets.json') as data_file:
+        data = json.load(data_file)
+        return jsonify(data)
 
 
-@app.errorhandler(404)
-def resource_not_found(e):
-    return make_response(jsonify(error='Not found!'), 404)
+@app.route("/toilets/<string:toilet_id>")
+def get_toilet(toilet_id):
+    with open('toilets.json') as data_file:
+        data = json.load(data_file)
+
+    selected_toilet = None
+    for toilet in data.get('toilets'):
+        if toilet.get('id') == toilet_id:
+            selected_toilet = toilet
+
+    if selected_toilet:
+        return jsonify(selected_toilet)
+    else:
+        return jsonify(
+            {
+                "error": "Not Found",
+                "message": "Toilet not found.",
+                "status":404
+            }
+        )
