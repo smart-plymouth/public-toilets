@@ -1,131 +1,123 @@
-<!--
-title: 'Serverless Framework Python Flask API on AWS'
-description: 'This template demonstrates how to develop and deploy a simple Python Flask API running on AWS Lambda using the traditional Serverless Framework.'
-layout: Doc
-framework: v3
-platform: AWS
-language: Python
-priority: 2
-authorLink: 'https://github.com/serverless'
-authorName: 'Serverless, inc.'
-authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
--->
+# Public Toilets API
 
-# Serverless Framework Python Flask API on AWS
+This service provides details of public toilet locations in Plymouth, UK
 
-This template demonstrates how to develop and deploy a simple Python Flask API service running on AWS Lambda using the traditional Serverless Framework.
+## API Endpoint
+* https://public-toilets.api.smartplymouth.org/
 
+## API Routes
+### /toilets
+Returns a list of public toilets.
 
-## Anatomy of the template
+#### Example Request
+```curl 'https://public-toilets.api.smartplymouth.org/toilets' | jq```
 
-This template configures a single function, `api`, which is responsible for handling all incoming requests thanks to configured `httpApi` events. To learn more about `httpApi` event configuration options, please refer to [httpApi event docs](https://www.serverless.com/framework/docs/providers/aws/events/http-api/). As the events are configured in a way to accept all incoming requests, `Flask` framework is responsible for routing and handling requests internally. The implementation takes advantage of `serverless-wsgi`, which allows you to wrap WSGI applications such as Flask apps. To learn more about `serverless-wsgi`, please refer to corresponding [GitHub repository](https://github.com/logandk/serverless-wsgi). Additionally, the template relies on `serverless-python-requirements` plugin for packaging dependencies from `requirements.txt` file. For more details about `serverless-python-requirements` configuration, please refer to corresponding [GitHub repository](https://github.com/UnitedIncome/serverless-python-requirements).
-
-## Usage
-
-### Prerequisites
-
-In order to package your dependencies locally with `serverless-python-requirements`, you need to have `Python3.9` installed locally. You can create and activate a dedicated virtual environment with the following command:
-
-```bash
-python3.9 -m venv ./venv
-source ./venv/bin/activate
+#### Example Response
+```
+{
+  "last_updated": "2023-07-05T17:15:00Z",
+  "toilets": [
+    {
+      "address": "Armada Way, City Centre, PL1 1HH",
+      "attributes": [
+        "Disabled",
+        "RADAR Key",
+        "Baby Change"
+      ],
+      "fee": "£0.50",
+      "id": "82513ed3-5cc6-4ab9-9fdb-79354a9dcab2",
+      "latitude": -4.14246,
+      "longitude": 50.37156,
+      "name": "Armada Way",
+      "opening_hours": {
+        "fri": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "mon": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "sat": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "sun": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "thu": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "tue": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "wed": {
+          "close": "18:00",
+          "open": "08:00"
+        }
+      },
+      "operator": "Plymouth City Council"
+    },
+    {},
+    {},
+    ...
+  ]
+}
 ```
 
-Alternatively, you can also use `dockerizePip` configuration from `serverless-python-requirements`. For details on that, please refer to corresponding [GitHub repository](https://github.com/UnitedIncome/serverless-python-requirements).
+### /toilets/<toilet_id>
+Returns information relating to a given public toilet.
 
-### Deployment
+#### Example Request
+```curl 'https://public-toilets.api.smartplymouth.org/toilets/94bbea4f-3880-4da8-bc4c-3d0feeb7f940' | jq```
 
-This example is made to work with the Serverless Framework dashboard, which includes advanced features such as CI/CD, monitoring, metrics, etc.
-
-In order to deploy with dashboard, you need to first login with:
-
+#### Example Response
 ```
-serverless login
-```
-
-install dependencies with:
-
-```
-npm install
-```
-
-and
-
-```
-pip install -r requirements.txt
-```
-
-and then perform deployment with:
-
-```
-serverless deploy
-```
-
-After running deploy, you should see output similar to:
-
-```bash
-Deploying aws-python-flask-api-project to stage dev (us-east-1)
-
-✔ Service deployed to stack aws-python-flask-api-project-dev (182s)
-
-endpoint: ANY - https://xxxxxxxx.execute-api.us-east-1.amazonaws.com
-functions:
-  api: aws-python-flask-api-project-dev-api (1.5 MB)
-```
-
-_Note_: In current form, after deployment, your API is public and can be invoked by anyone. For production deployments, you might want to configure an authorizer. For details on how to do that, refer to [httpApi event docs](https://www.serverless.com/framework/docs/providers/aws/events/http-api/).
-
-### Invocation
-
-After successful deployment, you can call the created application via HTTP:
-
-```bash
-curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/dev/
-```
-
-Which should result in the following response:
-
-```
-{"message":"Hello from root!"}
+{
+  "address": "Freedom Park, Lipson, PL4 8QF",
+  "attributes": [
+    "Disabled",
+    "Baby Change"
+  ],
+  "fee": "unknown",
+  "id": "94bbea4f-3880-4da8-bc4c-3d0feeb7f940",
+  "latitude": -4.12737,
+  "longitude": 50.37827,
+  "name": "Freedom Park",
+  "opening_hours": {
+    "fri": {
+      "close": "18:00",
+      "open": "08:00"
+    },
+    "mon": {
+      "close": "18:00",
+      "open": "08:00"
+    },
+    "sat": {
+      "close": "18:00",
+      "open": "08:00"
+    },
+    "sun": {
+      "close": "18:00",
+      "open": "08:00"
+    },
+    "thu": {
+      "close": "18:00",
+      "open": "08:00"
+    },
+    "tue": {
+      "close": "18:00",
+      "open": "08:00"
+    },
+    "wed": {
+      "close": "18:00",
+      "open": "08:00"
+    }
+  },
+  "operator": "Plymouth City Council"
+}
 ```
 
-Calling the `/hello` path with:
-
-```bash
-curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/dev/hello
-```
-
-Should result in the following response:
-
-```bash
-{"message":"Hello from path!"}
-```
-
-If you try to invoke a path or method that does not have a configured handler, e.g. with:
-
-```bash
-curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/dev/nonexistent
-```
-
-You should receive the following response:
-
-```bash
-{"error":"Not Found!"}
-```
-
-### Local development
-
-Thanks to capabilities of `serverless-wsgi`, it is also possible to run your application locally, however, in order to do that, you will need to first install `werkzeug` dependency, as well as all other dependencies listed in `requirements.txt`. It is recommended to use a dedicated virtual environment for that purpose. You can install all needed dependencies with the following commands:
-
-```bash
-pip install werkzeug
-pip install -r requirements.txt
-```
-
-At this point, you can run your application locally with the following command:
-
-```bash
-serverless wsgi serve
-```
-
-For additional local development capabilities of `serverless-wsgi` plugin, please refer to corresponding [GitHub repository](https://github.com/logandk/serverless-wsgi).
