@@ -48,5 +48,6 @@ def get_toilet(toilet_id):
             }
         )
 
+
 if __name__ == '__main__':
     app.run(threaded=True, host='0.0.0.0')
