@@ -47,3 +47,6 @@ def get_toilet(toilet_id):
                 "status": 404
             }
         )
+
+if __name__ == '__main__':
+    app.run(threaded=True, host='0.0.0.0')
